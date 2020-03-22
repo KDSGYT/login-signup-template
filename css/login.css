@@ -2,5 +2,15 @@
 
 }
 .login_form{
-
+  font-size: 17px;
+  margin:25px;
+}
+#login_button{
+  margin-top: 20px;
+  padding: 1px 10px;
+  background-color: rgb(10, 200, 60);
+  /* box-shadow: none; */
+  border: 0px solid grey;
+  color:white;
+  margin-left: 30%;
 }

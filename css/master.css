@@ -4,20 +4,6 @@
 }
 
 body{
-  min-width: 400px;
-}
-.container{
   font-family: 'Roboto', sans-serif;
-  border: 1px solid #aaa;
-  padding: 20px 10px 10px 10px;
-  width: 340px;
-  margin-top: 15%;
-  border-radius: 5px;
-
-}
-input{
-  margin-bottom: 10px;
-  padding: 5px 10px;
-  display: block;
-  /* border-radius: 2px; */
+  min-width: 400px;
 }

@@ -3,20 +3,10 @@
 }
 .login_form{
   font-size: 17px;
-  margin:25px;
+  margin:12.5%;
 
 }
-input[type="submit"]{
-  margin-top: 20px;
-  padding: 1px 10px;
-  background-color: rgb(10, 200, 60);
-  /* box-shadow: none; */
-  border: 0px solid grey;
-  border-radius: 3px;
-  color:white;
-  font-size: 20px;
-  margin-left: 36%;
-}
+
 h3{
   text-align: center;
 }

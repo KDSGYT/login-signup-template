@@ -1,0 +1,20 @@
+.container{
+  margin-top: 10%;
+}
+#signup_form{
+  margin:12.5%;
+}
+
+#signup_form p{
+  margin-top: 40px;;
+  font-size: 12px;
+  text-align: center;
+}
+#signup_title{
+  width:320px;
+  background-color: rgba(0,0, 255);
+
+}
+#signup_title:focus{
+  border:none;
+}

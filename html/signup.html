@@ -2,19 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <title>SignUp</title>
     <!-- Include bootstrap -->
     <link rel="stylesheet" href="/src/bootstrap/css/bootstrap.min.css">
     <!-- Include css -->
     <link rel="stylesheet" href="/css/master.css">
-    <!-- <link rel="stylesheet" href="/css/login.css"> -->
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/signup.css">
   </head>
   <body>
+    <!-- <div class="g-signin2" data-width="240" data-height="50" data-longtitle="false"> -->
     <div class="container">
-      <form class="" action="index.html" method="post">
-        <label for="name">Your Name:</label>
+      <input type="submit" name="" id="signup_title" disbled value="SIGN UP">
+      <div class="g-signin2" data-width="320" data-longtitle="true">
+      </div>
+      <hr>
+      <form id="signup_form" action="index.html" method="post">
+        <label for="name">Your Name</label>
         <input type="text" name="" value="" placeholder="e.g. John Doe">
+        <label for="email">Your Email</label>
+        <input type="text" name="" value="" placeholder="e.g.John@widget.co">
+        <label for="pass">Your Password</label>
+        <input type="password" name="" value="" placeholder="e.g.*********">
+        <input type="submit" name="" value="GO">
+        <p>Already an Instapage Member? <a href="login.html">Log In Now</a> </p>
       </form>
     </div>
+    <script type="text/javascript" src="../js/signup.js">
+    </script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
   </body>
 </html>

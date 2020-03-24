@@ -6,25 +6,30 @@
     <title>SignUp</title>
     <!-- Include bootstrap -->
     <link rel="stylesheet" href="/src/bootstrap/css/bootstrap.min.css">
-    <!-- Include css -->
+    <!-- Include basic css -->
     <link rel="stylesheet" href="/css/master.css">
+    <!-- include page specific css -->
     <link rel="stylesheet" href="/css/forms.css">
     <link rel="stylesheet" href="/css/signup.css">
   </head>
   <body>
     <!-- <div class="g-signin2" data-width="240" data-height="50" data-longtitle="false"> -->
     <div class="container">
-      <input type="submit" name="" id="signup_title" disbled value="SIGN UP">
+      <!-- <input type="submit" name="" id="signup_title" disbled value="SIGN UP"> -->
+      <p id="signup_title">SIGN UP</p>
+
       <div class="g-signin2" data-width="320" data-longtitle="true">
       </div>
       <hr>
-      <form id="signup_form" action="index.html" method="post">
+      <!-- The form starts here -->
+      <form id="signup_form" action="index.html" autocomplete="off" method="post">
         <label for="name">Your Name</label>
-        <input type="text" name="" value="" placeholder="e.g. John Doe">
+        <input type="text" name="" value=""  placeholder="e.g. John Doe">
         <label for="email">Your Email</label>
         <input type="text" name="" value="" placeholder="e.g.John@widget.co">
         <label for="pass">Your Password</label>
         <input type="password" name="" value="" placeholder="e.g.*********">
+        <!-- signup button -->
         <input type="submit" name="" value="GO">
         <p>Already an Instapage Member? <a href="login.html">Log In Now</a> </p>
       </form>

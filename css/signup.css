@@ -11,10 +11,18 @@
   text-align: center;
 }
 #signup_title{
+  margin-top: 2px;
+  padding: 5px;
+  width: 250px;
+  background-color: rgb(10, 200, 60);
+  /* box-shadow: none; */
+  border: 0px solid grey;
+  border-radius: 3px;
+  color:white;
+  font-size: 20px;
+  /* margin-left: 36%; */
+  text-align: center;
   width:320px;
   background-color: rgba(0,0, 255);
 
-}
-#signup_title:focus{
-  border:none;
 }
